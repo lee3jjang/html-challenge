@@ -14,3 +14,20 @@ body {
   justify-content: center;
   background-color: #f7f1e3;
 }
+
+button {
+  anchor-name: --sangjin-lee;
+}
+
+#tooltip {
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 2px grey;
+  background-color: rebeccapurple;
+
+  position: absolute;
+  position-anchor: --sangjin-lee;
+  top: anchor(bottom);
+  left: anchor(right);
+}
