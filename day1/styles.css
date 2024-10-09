@@ -1,3 +1,78 @@
 * {
-  background-color: pink;
+  margin: 0;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body {
+  background: #dddddd;
+  padding: 16px;
+}
+
+.container {
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 24px 0px;
+  min-width: 360px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin: 0px 16px 20px;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.author {
+  display: flex;
+  font-size: 12px;
+  gap: 8px;
+}
+
+.author-icon {
+  width: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 0px 16px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-actions {
+  display: flex;
+  gap: 32px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.card-image {
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 22px;
+}
+
+.card-divider {
+  border-color: #ffffff;
 }
